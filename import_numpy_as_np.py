@@ -1,4 +1,5 @@
 import numpy as np
+import torch
 
 def swap(a, b):
     a, b = b, a
@@ -9,3 +10,6 @@ b = 43
 
 print(a)
 print(b)
+
+print(torch.__version__)
+print(np.__version__)
